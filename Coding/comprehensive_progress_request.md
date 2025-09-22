@@ -115,10 +115,17 @@ BUSINESS LOGIC CONTEXT:
 
 ## 🛑 DEVELOPMENT WORKFLOW (MANDATORY)
 
-- **STOP after each component completion**
-- **WAIT for "done" confirmation before proceeding**
-- **Current workflow position**: [Phase X - Step Y]
-- **Next step after current**: [Step Y+1 description]
+- **PHASE 0: ANALYSIS & PLANNING** ← START HERE
+  - Analyze codebase thoroughly
+  - Present detailed plan for next task
+  - Wait for "done" confirmation on plan
+- **PHASE 1: STEP-BY-STEP IMPLEMENTATION**
+  - Code one component at a time
+  - STOP after each component
+  - WAIT for "done" confirmation before next component
+- **PHASE 2: TESTING & VERIFICATION**
+  - Provide testing guidelines
+  - Final verification
 
 **USER COMMANDS:**
 
@@ -134,14 +141,27 @@ BUSINESS LOGIC CONTEXT:
 - [filename] - [Focus on X sections for Y purpose]
 - [filename] - [Reference Z patterns for implementation]
 
-## ⚡ IMMEDIATE ACTION
+## ⚡ MANDATORY FIRST ACTIONS (NO CODING YET)
 
-Ready to implement: [Specific next task]
-Waiting for file analysis and your "done" confirmation to proceed.
+**STEP 1**: Analyze attached codebase and confirm understanding
+**STEP 2**: Present detailed implementation plan for [next task]
+**STEP 3**: Wait for user "done" approval on plan
+**STEP 4**: ONLY THEN start coding implementation
+
+## 🛑 CRITICAL CONSTRAINTS FOR NEW SESSION
+
+- **DO NOT CODE IMMEDIATELY**
+- **ANALYZE FIRST, PLAN SECOND, CODE THIRD**
+- **WAIT FOR PLAN APPROVAL** before any implementation
+- **FOLLOW DEVELOPMENT WORKFLOW** after plan confirmed
 
 ---
 
-🚀 **START BY**: Analyzing attached files and confirming readiness for [next task]
+🚀 **START BY**:
+
+1. Reading attached files thoroughly
+2. Presenting comprehensive plan for [next task]
+3. Waiting for your "done" before coding begins
 ```
 
 ## 6. 📋 HANDOVER CHECKLIST
